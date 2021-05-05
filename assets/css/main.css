@@ -3282,6 +3282,10 @@ input, select, textarea {
 				color: #87c5a4;
 			}
 
+			#header.alt.style7 .logo strong {
+				color: #5799bd;
+}
+
 		body.is-preload #header.alt {
 			opacity: 0;
 		}
@@ -3513,6 +3517,10 @@ input, select, textarea {
 		#banner.style6:after {
 			background-color: #87c5a4;
 		}
+
+		#banner.style7:after {
+		background-color: #5799bd;
+}
 
 		body.is-preload #banner:after {
 			opacity: 1.0;
