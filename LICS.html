@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" onload='typeWriter()'>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -38,7 +38,7 @@
 							<li><a href="SEPM.html">Software Engineering Project Management</a> </li>
 							<li><a href="RMPP.html">Research Methods and Professional Practice</a> </li>
 							<li><a href="Project.html">MSc Project</a> </li>
-							<li><a href="#three">Personal Projects</a></li>
+							<li><a href="index.html#three">Personal Projects</a></li>
 							<li><a href="https://github.com/IJW2021">GitHub</a></li>
 						</ul>
 					</nav>
@@ -68,8 +68,111 @@
 									<header class="major">
 										<h3>Computer Science</h3>
 									</header>
-									<p>TODO:Write an intro</p>
 
+									<p id="tr1"></p>
+									<!--https://www.w3schools.com/howto/howto_js_typewriter.asp-->
+									<script>
+										var i = 0;
+										var txt = 'Welcome to Module One Launching into compute science';
+										var speed = 50;
+
+										function typeWriter() {
+											if (i < txt.length) {
+												document.getElementById("tr1").innerHTML += txt.charAt(i);
+												i++;
+												setTimeout(typeWriter, speed);
+											}
+										}
+									</script>
+
+									<h3>Module Outcomes</h3>
+									<h4>In this module I will learn</h4>
+									<h3>Unit 1</h3>
+									<ul>
+										<li>The Role and responsibility's of an IT Professional</li>
+										<li>The British Computing Society Code of Conduct</li>
+										<li>Social,Ethical and Legal impact of computing & Computer Science</li>
+										<li>General Data Protection Regulations (GDPR)</li>
+									</ul>
+
+									<h3>Module Artifacts</h3>
+									<table class="alt">
+										<col style="width:10%">
+										<col style="width:45%">
+										<col style="width:45%">
+										<thead>
+										<tr>
+											<th>Unit</th>
+											<th>Description</th>
+											<th>Link</th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr>
+											<td>One</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Two</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Three</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Four</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Five</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Six</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Seven</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Eight</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Nine</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Ten</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Eleven</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>Twelve</td>
+											<td></td>
+											<td></td>
+										</tr>
+
+
+										</tbody>
+									</table>
+									<h3>Professional Proficiencies Matrix</h3>
 
 								</div>
 							</section>
