@@ -2474,6 +2474,7 @@ input, select, textarea {
 
 		table.alt {
 			border-collapse: separate;
+			border: solid 1px rgba(212, 212, 255, 0.1);
 		}
 
 			table.alt tbody tr td {
